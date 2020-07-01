@@ -32,8 +32,13 @@ In order to train the model:
 `python3 src/train.py --all_lambdas --classifier_name resnet18 --dataset church_vs_palace --data_size 64`
 
 ## Testing
-Trained models on "church vs palace", "cat vs dog" and "cat vs dog vs goldfish" are provided in `weights`. To run the test script:
-`python3 src/test.py --all_lambdas --weight_type checkpoint --classifier_name resnet18 --kfold 3 --dataset church_vs_palace --data_size 64`
+Trained models on "church vs palace", "cat vs dog" and "cat vs dog vs goldfish" are provided in `weights` (only the best lambdas reported in the paper):
+- 0.05 for cat_vs_dog
+- 0.005 for cat_vs_dog_vs_goldfish
+- 0.0025 for church_vs_palace
+
+To run the test script:
+`python3 src/test.py --lambda_class 0.05 --weight_type checkpoint --classifier_name resnet18 --kfold 3 --dataset cat_vs_dog --data_size 64`
 
 ## Citation
 If you use our code, please cite our work
