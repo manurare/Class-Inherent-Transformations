@@ -36,6 +36,7 @@ Trained models on "church vs palace", "cat vs dog" and "cat vs dog vs goldfish" 
 `python3 src/test.py --all_lambdas --weight_type checkpoint --classifier_name resnet18 --kfold 3 --dataset church_vs_palace --data_size 64`
 
 ## Citation
+If you use our code, please cite our work
 ```
 @article{REYAREA2020,
 title = {{FuCiTNet}: Improving the generalization of deep learning networks by the fusion of learned class-inherent transformations},
