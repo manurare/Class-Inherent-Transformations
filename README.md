@@ -26,7 +26,7 @@ dataset/
             imgc.jpg
             ...
 ```
-
+Datasets used in the paper are available within the folder `data`
 ## Training
 In order to train the model:
 `python3 src/train.py --all_lambdas --classifier_name resnet18 --dataset church_vs_palace --data_size 64`
