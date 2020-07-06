@@ -43,13 +43,15 @@ To run the test script:
 ## Citation
 If you use our code, please cite our work
 ```
-@article{REYAREA2020,
+@article{REYAREA2020188,
 title = {{FuCiTNet}: Improving the generalization of deep learning networks by the fusion of learned class-inherent transformations},
 journal = {Information Fusion},
+volume = {63},
+pages = {188 - 195},
 year = {2020},
 issn = {1566-2535},
 doi = {https://doi.org/10.1016/j.inffus.2020.06.015},
 url = {http://www.sciencedirect.com/science/article/pii/S1566253520303122},
-author = {Manuel Rey-Area and Emilio Guirado and Siham Tabik and Javier Ruiz-Hidalgo},
+author = {Manuel Rey-Area and Emilio Guirado and Siham Tabik and Javier Ruiz-Hidalgo}
 }
 ```
